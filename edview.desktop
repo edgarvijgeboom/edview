@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=EdView
+GenericName=Image Viewer
+Comment=Fast GPU accelerated image viewer
+Exec=edview %f
+Icon=edview
+Terminal=false
+Categories=Graphics;Viewer;Qt;
+StartupWMClass=edview
+MimeType=image/jpeg;image/png;image/webp;image/gif;image/bmp;image/tiff;image/avif;image/heif;image/heic;image/jxl;image/qoi;image/x-tga;image/svg+xml;image/svg+xml-compressed;image/x-icon;image/vnd.microsoft.icon;image/x-icns;image/x-portable-anymap;image/x-portable-pixmap;image/x-portable-graymap;image/x-portable-bitmap;image/x-xbitmap;image/x-xpixmap;image/x-xcf;image/vnd.adobe.photoshop;image/x-exr;image/x-hdr;image/vnd.radiance;image/x-pfm;image/x-phm;image/jp2;image/jpx;image/hej2k;image/x-jp2-codestream;image/x-dds;image/vnd.zbrush.pcx;image/vnd.wap.wbmp;image/x-sun-raster;image/x-rgb;image/x-pic;image/x-pxr;image/x-sct;image/x-ilbm;application/x-iff;image/x-adobe-dng;image/x-canon-cr2;image/x-canon-cr3;image/x-canon-crw;image/x-epson-erf;image/x-fuji-raf;image/x-hasselblad-3fr;image/x-hasselblad-fff;image/x-kodak-dcr;image/x-kodak-k25;image/x-kodak-kdc;image/x-leaf-mos;image/x-mamiya-mef;image/x-minolta-mdc;image/x-minolta-mrw;image/x-nikon-nef;image/x-nikon-nrw;image/x-olympus-orf;image/x-panasonic-raw;image/x-panasonic-rw2;image/x-pentax-pef;image/x-phaseone-iiq;image/x-samsung-srw;image/x-sigma-x3f;image/x-sinar-sti;image/x-sony-arw;image/x-sony-sr2;image/x-sony-srf;

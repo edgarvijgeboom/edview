@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="160" viewBox="0 0 256 160" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Blade Runner inspired eye</title>
+  <desc id="desc">A dark outlined eye with a teal iris, black pupil and amber reflected lights. Transparent background, entirely vector.</desc>
+  <defs>
+    <radialGradient id="iris"><stop offset="0" stop-color="#103137"/><stop offset=".52" stop-color="#266568"/><stop offset=".8" stop-color="#11848b"/><stop offset="1" stop-color="#092e38"/></radialGradient>
+    <linearGradient id="white" x1="30" y1="50" x2="216" y2="120" gradientUnits="userSpaceOnUse"><stop stop-color="#638585"/><stop offset=".5" stop-color="#b5c7bb"/><stop offset="1" stop-color="#49757a"/></linearGradient>
+    <linearGradient id="fire" x1="77" y1="42" x2="104" y2="121" gradientUnits="userSpaceOnUse"><stop stop-color="#ffe19a"/><stop offset=".5" stop-color="#ffb650"/><stop offset="1" stop-color="#d56732"/></linearGradient>
+    <clipPath id="eye"><path d="M12 86C41 49 78 28 124 28c52 0 91 22 120 58-32 30-72 46-119 46S43 117 12 86Z"/></clipPath>
+  </defs>
+  <g clip-path="url(#eye)">
+    <path d="M12 28h232v104H12z" fill="url(#white)"/>
+    <circle cx="128" cy="79" r="60" fill="url(#iris)"/>
+    <g stroke="#79c1b6" stroke-width="3" stroke-linecap="round" opacity=".42">
+      <path d="m128 29 1 20m22-15-8 20m27-7-17 15m27 5-22 6m25 17-23-5m13 26-20-14m4 27-15-24m-13 29v-24m-22 20 10-25m-29 12 21-17m-30-5 24-4m-20-18 23 8m-10-30 13 21"/>
+    </g>
+    <circle cx="128" cy="77" r="23" fill="#07191e"/>
+    <path d="M89 32c-15 18-22 42-16 64 4 14 15 26 31 33l-9-14-10-7 3-12-8-11 6-12-4-9 9-13-2-8 8-13Z" fill="url(#fire)"/>
+    <path d="m80 51-4 22 7 13-3 13 15 19M89 48l-5 14 3 10" stroke="#fff0ae" stroke-width="3" stroke-linecap="round"/>
+    <g fill="#ffc872">
+      <circle cx="102" cy="57" r="2.5"/><circle cx="117" cy="47" r="1.8"/><circle cx="132" cy="56" r="2"/><circle cx="148" cy="48" r="1.8"/><circle cx="156" cy="62" r="2.3"/>
+      <circle cx="111" cy="69" r="1.6"/><circle cx="123" cy="63" r="2"/><circle cx="136" cy="70" r="1.5"/><circle cx="146" cy="81" r="2.2"/><circle cx="119" cy="86" r="2"/>
+      <circle cx="104" cy="89" r="2.2"/><circle cx="111" cy="105" r="2"/><circle cx="134" cy="102" r="2.6"/><circle cx="150" cy="110" r="1.8"/><circle cx="161" cy="94" r="2"/>
+      <path d="M96 74h5v3h-5zm31 18h3v6h-3zm13-35h3v5h-3zm21 17h5v3h-5z"/>
+    </g>
+    <ellipse cx="168" cy="72" rx="4" ry="6" fill="#dffff3"/>
+    <circle cx="153" cy="47" r="2.7" fill="#dffff3"/>
+  </g>
+  <path d="M12 86C41 49 78 28 124 28c52 0 91 22 120 58-32 30-72 46-119 46S43 117 12 86Z" stroke="#09232b" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M26 64c28-27 61-42 98-42 43 0 79 15 105 41" stroke="#09232b" stroke-width="5" stroke-linecap="round"/>
+</svg>

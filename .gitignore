@@ -1,0 +1,81 @@
+# Build directories
+build/
+out/
+cmake-build-*/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+Testing/
+
+# Ninja
+.ninja_deps
+.ninja_log
+
+# CPack / packages
+_CPack_Packages/
+*.deb
+*.rpm
+*.tar.gz
+*.zip
+CPackConfig.cmake
+CPackSourceConfig.cmake
+
+# Compiled binaries and objects
+*.o
+*.obj
+*.a
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+/edview
+
+# Qt / QML generated
+*_autogen/
+moc_*.cpp
+mocs_compilation.cpp
+qrc_*.cpp
+*.qmlc
+*.jsc
+.qmake.stash
+*.qm
+meta_types/
+qmltypes/
+*_qmltyperegistrations.cpp
+.qt/
+
+# IDE and editors
+.idea/
+.vscode/
+*.code-workspace
+*.swp
+*.swo
+*~
+.project
+.cproject
+.settings/
+*.user
+*.user.*
+*.autosave
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Debug / profiling
+*.core
+core
+vgcore.*
+*.dSYM/
+
+# Local env / secrets
+.env
+.env.*
+*.local
