@@ -65,7 +65,7 @@ int main(int argc, char *argv[])
   QGuiApplication::setApplicationName(QStringLiteral("EdView"));
   QGuiApplication::setApplicationVersion(QStringLiteral("0.1.0"));
   QGuiApplication::setDesktopFileName(QStringLiteral("edview"));
-  QGuiApplication::setWindowIcon(QIcon(QStringLiteral(":/icons/edview.svg")));
+  QGuiApplication::setWindowIcon(QIcon(QStringLiteral(":/icons/edview_icon.png")));
   QQuickStyle::setStyle(QStringLiteral("Basic"));
 
   QThreadPool::globalInstance()->start([] {

@@ -47,7 +47,7 @@ qt_add_qml_module(edview
 
 qt_add_resources(edview "icons"
   PREFIX "/"
-  FILES icons/edview.svg
+  FILES icons/edview_icon.png
 )
 
 target_include_directories(edview PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/src)
@@ -105,7 +105,8 @@ set_target_properties(edview PROPERTIES INSTALL_RPATH_USE_LINK_PATH ON)
 include(GNUInstallDirs)
 install(TARGETS edview RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR})
 install(FILES edview.desktop DESTINATION ${CMAKE_INSTALL_DATADIR}/applications)
-install(FILES icons/edview.svg DESTINATION ${CMAKE_INSTALL_DATADIR}/icons/hicolor/scalable/apps)
+install(FILES icons/edview_icon.png DESTINATION ${CMAKE_INSTALL_DATADIR}/icons/hicolor/128x128/apps RENAME edview.png)
+install(CODE "file(REMOVE \"\$ENV{DESTDIR}\${CMAKE_INSTALL_PREFIX}/${CMAKE_INSTALL_DATADIR}/icons/hicolor/scalable/apps/edview.svg\")")
 
 set(CPACK_GENERATOR "DEB")
 set(CPACK_PACKAGE_NAME "edview")

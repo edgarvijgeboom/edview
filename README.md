@@ -6,7 +6,7 @@ EdView is a fast, minimal image viewer for Linux. It opens an image fullscreen o
 
 It is written in C++ with Qt 6 Quick and uses the GPU for both drawing and JPEG decoding.
 
-![EdView icon](icons/edview.svg)
+![EdView icon](icons/edview_icon.png)
 
 ## Features
 
@@ -144,7 +144,7 @@ System-wide:
 sudo cmake --install build
 ```
 
-This installs the binary, `edview.desktop` and the icon. For a single user without sudo, copy `icons/edview.svg` to `~/.local/share/icons/hicolor/scalable/apps/` and `edview.desktop` to `~/.local/share/applications/`, with `Exec=` pointing to the built binary, then run `kbuildsycoca6`.
+This installs the binary, `edview.desktop` and the icon. For a single user without sudo, copy `icons/edview_icon.png` to `~/.local/share/icons/hicolor/128x128/apps/edview.png` and `edview.desktop` to `~/.local/share/applications/`, with `Exec=` pointing to the built binary, then run `kbuildsycoca6`.
 
 ## Customizing the glass background
 
@@ -162,7 +162,7 @@ qdbus6 org.kde.KWin /Effects org.kde.kwin.Effects.reconfigureEffect blur
 ```
 CMakeLists.txt      build configuration
 edview.desktop      desktop entry (app menu, file associations)
-icons/edview.svg    application icon
+icons/edview_icon.png    application icon (installed as hicolor `edview.png`)
 src/main.cpp        startup, window setup, blur, benchmark mode
 src/viewer.*        current image, editing, saving, delete and rename, prefetching
 src/decoder.*       CPU and GPU decoding, color conversion, EXIF orientation
